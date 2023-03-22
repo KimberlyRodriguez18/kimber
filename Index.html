@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>AppDeGatos</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body background="imagenes/gt.jpeg">
+    <h2>AppDeGatos</h2>
+    <main>
+        <h3>Imagenes de Gatos</h3>
+
+
+
+
+        <p>Haz clik aqui para ver más <a href="https://www.freecodecamp.org/español/" target="_blank"
+                rel="noopener noreferrer">imagenes de Gatos.</a></p>
+
+        
+        <img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo 
+            gato naranja recostado sobre su espalda.">
+
+        <hr size="7" color="white">
+
+        <h3>Listas de Gatos</h3>
+
+        <div>
+            <p>Cosas que los gatos <em>aman</em>:</p>
+            <ul>
+                <li><b>Meta Gatuna</b></li>
+                <li><b>Apuntadores láser</b></li>
+                <li><b><s>Lasaña</s></b></li>
+
+            </ul>
+            <img src="imagenes/lasaña.jpeg" alt="lasaña">
+
+            <p>Cosa que los gatos <strong>odian</strong></p>
+            <ol>
+                <li><b>Tramientos antipulgas</b></li>
+                <li><b>ruenos</b></li>
+                <li><b>Otros gatos</b></li>
+
+            </ol>
+        </div>
+        <img src="imagenes/gato.jpeg">
+
+        <form action="/enviar-respuesta">
+            <label for="interiror"><input id="interior" type="radio" value="interior" name="interior-exterior"
+                    checked>Interior</label>
+
+            <br>
+
+            <label for="exterior"> <input id="exterior" type="radio" value="exterior"
+                    name="interior-exterior">Exterior</label> <br>
+
+            <label for="carinoso"><input id="carinoso" type="checkbox" value="carinoso" name="personalidad"
+                    checked>Cariñoso</label><br>
+            <label for="perezoso"><input id="perezoso" type="checkbox" value="perezoso"
+                    name="personalidad">Perezoso</label><br>
+            <label for="energico"><input id="energico" type="checkbox" value="energico"
+                    name="personalidad">Enérgico</label> <br>
+
+            <input type="text" Placeholder="URL de la foto de tu gato" required><br>
+            <button type="submit">Enviar</button>
+
+        </form>
+
+
+        <form action="/uno/juan.txt">
+            <h3>Formulario de Gatos Garrapientos</h3>
+            <input type="checkbox">negro
+            <input type="checkbox">blanco
+            <input type="checkbox">canelo
+
+
+
+            <hr size="7" color="pink">
+            <label for="interior"><input id="interior" type="radio" name="inext">Pulgar </label> <br>
+            <label for="exterior"><input id="exterior" type="radio" name="inext">Gato volador </label> <br>
+            <label for="center"><input id="center" type="radio" name="inext">Gato Garrapiento </label> <br>
+            <hr size="7" color="purple">
+
+
+            <h1>Ingrese nombre</h1>
+            <input type="text" Placeholder="Ingrese Nombre" required>
+            <h1>Ingrese apellido</h1>
+            <input type="text" Placeholder="Ingrese Apellido" required>
+            <h1>Ingrese sueldo </h1>
+            <input type="text" Placeholder="Ingrese  Sueldo  Chato" required>
+            <button type="submit">Enviar</button>
+            <button type="submit">Limpiar</button>
+            <hr size="7" color="turquoise">
+        </form>
+
+
+    </main>
+    <footer>
+        <p><small>Sin derechos de Autor - <a href="https://www.freecodecamp.org/espanol/">freCodeCam.org</a></small></p>
+    </footer>
+</body>
+
+</html>
